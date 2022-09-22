@@ -69,7 +69,7 @@ interface IConfiguration {
 
 export class AppComponent implements AfterViewInit {
 
-    title = 'SimArq86';
+    title = 'asm-simulator';
 
     public codeText = '';
     private instance: any;

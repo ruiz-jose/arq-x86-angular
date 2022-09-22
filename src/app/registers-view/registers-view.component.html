@@ -3,19 +3,19 @@
     <div class="registers-content">
       <div class="register-line">
         <div class="register" (click)="toggleDisplayRegister(0)">
-          <div class="register-name cursor-pointer" title="General Purpose Register AX"><span>AX</span></div>
+          <div class="register-name cursor-pointer" title="General Purpose Register A"><span>A</span></div>
           <div class="source-code register-value-byte cursor-pointer" [ngClass]="{ 'marker marker-a': displayA }"><span>{{A.strValue}}</span></div>
         </div>
         <div class="register" (click)="toggleDisplayRegister(1)">
-          <div class="register-name cursor-pointer" title="General Purpose Register B"><span>BX</span></div>
+          <div class="register-name cursor-pointer" title="General Purpose Register B"><span>B </span></div>
           <div class="source-code register-value-byte cursor-pointer" [ngClass]="{ 'marker marker-b': displayB }"><span>{{B.strValue}}</span></div>
         </div>
         <div class="register" (click)="toggleDisplayRegister(2)">
-          <div class="register-name cursor-pointer" title="General Purpose Register CX"><span>CX</span></div>
+          <div class="register-name cursor-pointer" title="General Purpose Register C"><span>C </span></div>
           <div class="source-code register-value-byte cursor-pointer" [ngClass]="{ 'marker marker-c': displayC }"><span>{{C.strValue}}</span></div>
         </div>
         <div class="register" (click)="toggleDisplayRegister(3)">
-          <div class="register-name cursor-pointer" title="General Purpose Register DX"><span>DX</span></div>
+          <div class="register-name cursor-pointer" title="General Purpose Register D"><span>D </span></div>
           <div class="source-code register-value-byte cursor-pointer" [ngClass]="{ 'marker marker-d': displayD }"><span>{{D.strValue}}</span></div>
         </div>
       </div>
