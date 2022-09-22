@@ -1,3 +1,7 @@
 para correr npm start primero ejecutar esta linea en windows
 set NODE_OPTIONS=--openssl-legacy-provider
 "start": "set NODE_OPTIONS=--openssl-legacy-provider & ng serve",
+
+npm i angular-cli-ghpages   
+npm run build                     
+npx angular-cli-ghpages –dir=dist 
