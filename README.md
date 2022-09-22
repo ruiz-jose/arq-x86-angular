@@ -16,7 +16,8 @@ split the different panel views. The GitHub link icon on the uppermost right
 corner of the application is a [GitHub
 corner](https://github.com/tholman/github-corners).
 
-You can try it online [here](https://parraman.github.io/asm-simulator/).
+You can try it online [here](https://ruiz-jose.github.io/arq-x86-angular/) TUDW-ARQ.
+You can try it online [here](https://parraman.github.io/asm-simulator/) original.
 
 ## Features
 
