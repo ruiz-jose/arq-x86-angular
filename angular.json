@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "asm-simulator": {
+    "arq-x86": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -56,18 +56,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "asm-simulator:build"
+            "browserTarget": "arq-x86:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "asm-simulator:build:production"
+              "browserTarget": "arq-x86:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "asm-simulator:build"
+            "browserTarget": "arq-x86:build"
           }
         },
         "test": {
