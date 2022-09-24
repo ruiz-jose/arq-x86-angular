@@ -129,5 +129,5 @@
       }
     }
   },
-  "defaultProject": "asm-simulator"
+  "defaultProject": "arq-x86"
 }
