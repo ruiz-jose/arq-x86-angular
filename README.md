@@ -1,7 +1,7 @@
-# Simulador x86 16-bit
+# Simulador arq-x86 16-bit
 
 A simulator of a 16-bit CPU. This project has been developed for educational
-purposes to support the teaching of operating systems.
+purposes to support the teaching of architecture computer.
 
 The simulator is based on a [previous
 project](https://github.com/Schweigi/assembler-simulator) made by Marco
