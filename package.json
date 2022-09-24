@@ -1,15 +1,15 @@
 {
-  "name": "asm-simulator",
+  "name": "arq-x86",
   "version": "1.6.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "set NODE_OPTIONS=--openssl-legacy-provider & ng serve",
-    "build": "ng build --prod --base-href=/arq-x86-angular/",
-    "deploy":"npx angular-cli-ghpages --dir=dist/", 
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base-href=/arq-x86-angular/"
   },
   "private": true,
   "dependencies": {
